@@ -1,0 +1,12 @@
+// config.js
+  module.exports = {
+    token: '',
+    activity: {
+      name: 'Alpha Store',
+      type: 1, // type 1 is for "Streaming"
+      url: 'https://twitch.tv/alpha_store_bot', // تأكد من تحديث هذا مع رابط البث الخاص بك
+    },
+    status: 'idle',
+    notifyChannelId: '', // قم بإضافة هذا السطر لتحديد الروم
+  };
+  
